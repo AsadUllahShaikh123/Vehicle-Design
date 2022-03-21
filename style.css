@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding: 0.5rem 6rem;
+}
+.logo {
+  font-size: 2.5rem;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style-type: none;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+li:hover  a {
+  color:darkgray;
+}
+
+main {
+  background-image: url('./img-5.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+  height: 88.2vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+}
+main h1 {
+  font-size: 4rem;
+  color: white;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 2rem;
+  /* min-width: 20%; */
+  height: 220px;
+  background-color: rgba(0, 0, 0,0.8);
+}
+.text button {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  color: red;
+  background-color:transparent;
+  color: white;
+  border : 1px solid white;
+  border-radius: 8px;
+ 
+}
+button:hover 
+{
+  cursor: pointer;
+ background-color: black;
+ color:white;
+ border: none;
+ /* border : 2px solid black; */
+}
+
+.content {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+}
+.content h1 {
+  color: red;
+}
