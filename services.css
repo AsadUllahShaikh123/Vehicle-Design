@@ -36,28 +36,31 @@ li:hover  a {
   color:darkgray;
 }
 
-main {
-  background-image: url('./img-5.jpg');
-  background-position: 100% 100%;
+
+
+main{
+  background-image: url('./images/car3.jpg');
+  background-position: center ;
   background-size: cover;
-  height: 88.2vh;
+  height: 90.5vh;
   display: flex;
   justify-content: center;
   padding-top: 7rem;
 }
-main h1 {
-  font-size: 4rem;
-  color: white;
-}
+
 .text {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
   padding: 2rem;
+  /* min-width: 20%; */
   height: 220px;
-  background-color: rgba(0, 0, 0,0.8);
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0,0.4);
 }
+
 .text button {
   font-size: 2rem;
   font-weight: bold;
@@ -66,7 +69,7 @@ main h1 {
   color: red;
   background-color:transparent;
   color: white;
-  border : 1px solid white;
+  border : 2px solid white;
   border-radius: 8px;
  
 }
@@ -79,11 +82,4 @@ button:hover
  /* border : 2px solid black; */
 }
 
-.content {
-  margin: 2rem 0;
-  text-align: center;
-  font-size: 2rem;
-}
-.content h1 {
-  color: red;
-}
+
